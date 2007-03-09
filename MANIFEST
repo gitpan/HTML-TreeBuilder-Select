@@ -1,10 +1,11 @@
 Build.PL
 Changes
-MANIFEST
-META.yml # Will be created by "make dist"
-README
 lib/HTML/TreeBuilder/Select.pm
+MANIFEST
+META.yml			# Will be created by "make dist"
+README
 t/00-load.t
+t/01-HTML-TreeBuilder-Select.t
 t/boilerplate.t
 t/pod-coverage.t
 t/pod.t

@@ -1,6 +1,6 @@
 ---
 name: HTML-TreeBuilder-Select
-version: 0.10
+version: 0.11
 author:
   - 'Robert Krimen <rkrimen@cpan.org>'
 abstract: Traverse a HTML tree using CSS selectors
@@ -10,6 +10,7 @@ resources:
 requires:
   Carp: 0
   Class::Accessor: 0
+  HTML::Selector::XPath: 0
   HTML::TreeBuilder: 0
   HTML::TreeBuilder::XPath: 0
 build_requires:
@@ -19,7 +20,7 @@ provides:
     file: lib/HTML/TreeBuilder/Select.pm
   HTML::TreeBuilder::Select:
     file: lib/HTML/TreeBuilder/Select.pm
-    version: 0.10
+    version: 0.11
 generated_by: Module::Build version 0.28
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

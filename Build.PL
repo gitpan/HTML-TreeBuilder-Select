@@ -13,6 +13,7 @@ my $builder = Module::Build->new(
     requires => {
     	'HTML::TreeBuilder' => 0,
     	'HTML::TreeBuilder::XPath' => 0,
+    	'HTML::Selector::XPath' => 0,
     	'Class::Accessor' => 0,
     	'Carp' => 0,
     },

@@ -9,11 +9,11 @@ HTML::TreeBuilder::Select - Traverse a HTML tree using CSS selectors
 
 =head1 VERSION
 
-Version 0.10
+Version 0.11
 
 =cut
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 use HTML::TreeBuilder::XPath;
 use Class::Accessor;
