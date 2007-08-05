@@ -9,3 +9,4 @@ t/01-HTML-TreeBuilder-Select.t
 t/boilerplate.t
 t/pod-coverage.t
 t/pod.t
+Makefile.PL
